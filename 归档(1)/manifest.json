@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "image/off_icon_19.png",
+         "38": "image/off_icon_38.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "default_locale": "en",
+   "description": "189CSP，aka 上海万联为签约企业客户提供的云加速服务，优化了包括 Office365，Salesforce 和 Google Apps 等特定的企业在线应用的稳定性。采用企业级的 SSL 传输模式，不适合个人使用。",
+   "icons": {
+      "128": "image/icon_128.png",
+      "24": "image/icon_24.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArhCMlGuwqpYwPUK4OofXYlEjVVGDuX3YOdMt1Pe0OjcY2lAJuwbMwBBhQpXCN8emCyZ95cYgejfkJRxJa36pXJJEKf2WwGBGTWHTuBhVj1pGHocexpQ6HdqiG5VQL2ApJV+B3Wwjwiq1H4rEpLbHC/LqVn/wIo898kQjrM9bTbDjd42KbezNY2NVs5E8IirYedq+wkqaZz3N4+4u+uFPVF51ECi6UUP/fez3kXJHerPYSGJNPZCIo0npNenF1diibiE0r6H1HYUVUoiZXcRMsmFd2IeGDye51AQq8IqH2OjupFqjdywbKAZhkOO92fGpVVUDMyzp7lK/EikRzWD1dwIDAQAB",
+   "manifest_version": 2,
+   "name": "CA17云加速 by 189CSP",
+   "permissions": [ "\u003Call_urls>", "webRequest", "webRequestBlocking", "notifications", "proxy" ],
+   "sandbox": {
+      "pages": [ "sandbox.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.10.11"
+}
